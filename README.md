@@ -2,7 +2,7 @@
 k8s的ingress-nginx的yaml，可以直接使用kubectl apply -f 安装
 ## 使用
 ```bash
-kubectl apply -f 
+kubectl apply -f https://raw.githubusercontent.com/ggqshr/k8s-ingress-nginx/main/ingress-nginx-v1.1.1.yaml
 ```
 ## 其他
 因ingress-nginx的镜像是在gcr上的，国内无法拉取，这里采用好心人做得国内镜像拉取的
